@@ -22,9 +22,6 @@ RUN useradd -u 4000 -ms /bin/bash "$USER" \
 
 WORKDIR /home/${USER}
 
-
-
-
 ARG RPIIG_GIT_SHA=ba410bccd3f690a49cb8ec7a724cb59d08a4257e
 RUN git clone https://github.com/raspberrypi/rpi-image-gen.git && cd rpi-image-gen && git checkout ${RPIIG_GIT_SHA}
 RUN sudo chown -R imagegen:imagegen /home/imagegen/rpi-image-gen/

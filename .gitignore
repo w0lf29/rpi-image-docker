@@ -2,4 +2,3 @@
 !/output/.gitkeep
 /parameters/*
 !/parameters/.gitkeep
-.DS_Store

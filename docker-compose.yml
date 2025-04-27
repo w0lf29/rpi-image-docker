@@ -7,4 +7,4 @@ services:
         tty: true
         image: rpi-imagegen:latest
         volumes:
-            - ./output:/home/imagegen/rpi_image-gen/output
+            - ./output:/home/imagegen/rpi-image-gen/output
