@@ -25,4 +25,3 @@ docker-compose run --rm -it "${SERVICE_NAME}" bash -c "
     ${RSYNC_COMMAND} || { echo 'Rsync command failed.'; exit 1; };
     echo 'All commands executed successfully.';
 "
-"
