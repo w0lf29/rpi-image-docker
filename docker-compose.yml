@@ -1,0 +1,10 @@
+services:
+    rpi_imagegen:
+        platform: linux/arm64
+        build: .
+        privileged: true
+        stdin_open: true
+        tty: true
+        image: rpi-imagegen:latest
+        volumes:
+            - ./output:/home/imagegen/rpi_image-gen/output
