@@ -1,5 +1,5 @@
 services:
-    rpi_imagegen:
+    rpi-imagegen:
         platform: linux/arm64
         build: .
         privileged: true
